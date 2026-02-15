@@ -3,6 +3,7 @@
 # 🩸 BloodEffect
 
 ### Realistic Blood Effects for Minecraft Servers
+### URL Resource: https://www.spigotmc.org/resources/bloodeffect.126191
 
 <br>
 
