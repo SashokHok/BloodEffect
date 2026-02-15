@@ -1,0 +1,60 @@
+# Command message settings
+Command:
+  # Message shown if the player does not have permission
+  noPermission: "&cYou do not have permission to use this command."
+  # Message shown when the plugin config is successfully reloaded
+  pluginConfigReloaded: "&aThe plugin configuration has been successfully reloaded."
+  # Usage hint for the /bloodeffect reload command
+  Use: "&fUse: &c/bloodeffect reload &8- &areload the plugin configuration."
+
+# General blood effect settings
+bloodEffect:
+  # Enables/disables the entire blood effect system
+  enable: true
+  # Block type used for the visual blood effect (e.g., REDSTONE_BLOCK)
+  blockType: 'REDSTONE_BLOCK'
+
+  # Blood effect on player damage
+  player:
+    # Enables/disables blood effects when players are damaged
+    enable: true
+    # Vertical offset of the blood effect above the player
+    yOffset: 1.0
+
+  # Blood effect on mob damage
+  mob:
+    # Enables/disables blood effects when mobs are damaged
+    enable: false
+    # Vertical offset of the blood effect above the mob
+    yOffset: 0.5
+
+  # Blood effect from projectile hits (e.g., arrows, snowballs)
+  projectile:
+    # Enables/disables blood effects from projectile hits
+    enable: true
+    # Offset from the projectile hit location to display the effect
+    yOffset: 1.5
+
+# Blood effects triggered by CrackShot weapons
+crackShotEffect:
+  # Enables/disables all CrackShot-related blood effects
+  enable: false
+
+  # Effects when players are damaged by CrackShot weapons
+  player:
+    enable: true  # Enables/disables blood effects for CrackShot damage on players
+    yOffset: 1.0  # Offset above player for normal CrackShot hits
+
+  # Effects when mobs are damaged by CrackShot weapons
+  mob:
+    enable: false  # Enables/disables blood effects for CrackShot damage on mobs
+    yOffset: 0.5   # Offset above mob for normal CrackShot hits
+
+  # Headshot-specific effects (requires CrackShot's headshot support)
+  HeadShot:
+    player:
+      enable: true  # Enables extra blood effect when a player is headshotted
+      yOffset: 2.0  # Offset above player's head for headshot effect
+    mob:
+      enable: true  # Enables extra blood effect when a mob is headshotted
+      yOffset: 1.5  # Offset above mob's head for headshot effect

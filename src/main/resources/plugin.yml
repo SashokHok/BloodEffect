@@ -1,0 +1,11 @@
+name: BloodEffect
+version: '${project.version}'
+main: me.sashok_hok.bloodeffect.BloodEffect
+author: Sashok_hok
+description: Blood effects in Minecraft
+website: https://www.spigotmc.org/resources/bloodeffect.126191/
+api-version: "1.13"
+softdepend: ['CrackShot']
+commands:
+  bloodeffect:
+    aliases: ['be']
